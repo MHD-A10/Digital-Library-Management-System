@@ -1,0 +1,11 @@
+package model;
+
+public enum BorrowResult {
+    SUCCESS,
+    INVALID_INPUT,
+    ALREADY_BORROWED,
+    BORROWER_LIMIT_REACHED,
+    NOT_AVAILABLE,
+    WAITLISTED,
+    ALREADY_WAITLISTED
+}
